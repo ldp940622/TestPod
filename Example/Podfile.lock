@@ -1,15 +1,22 @@
 PODS:
-  - TestPod (0.1.0)
+  - Alamofire (4.5.1)
+  - TestPod (0.1.0):
+    - Alamofire (~> 4.5.1)
 
 DEPENDENCIES:
   - TestPod (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
 
 EXTERNAL SOURCES:
   TestPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestPod: 0dee6f9ac02b849c8df6c2ba2c9e13f2bbffb532
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  TestPod: 55f2f1cee43bad71ce2ccd9d779416d01896f1da
 
 PODFILE CHECKSUM: 10818afec5b6ad4b8f48051daf04aef3f18a317d
 

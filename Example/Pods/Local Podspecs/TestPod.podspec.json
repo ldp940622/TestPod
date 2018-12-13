@@ -2,8 +2,9 @@
   "name": "TestPod",
   "version": "0.1.0",
   "summary": "A short description of TestPod.",
+  "swift_version": "3.2",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Joseph Lee/TestPod",
+  "homepage": "https://github.com/ldp940622/TestPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,16 @@
     "Joseph Lee": "lidapeng1994@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Joseph Lee/TestPod.git",
+    "git": "https://github.com/ldp940622/TestPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TestPod/Classes/**/*"
+  "source_files": "TestPod/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.5.1"
+    ]
+  }
 }
